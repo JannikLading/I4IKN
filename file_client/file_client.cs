@@ -28,17 +28,17 @@ namespace tcp
 		/// </param>
 		private file_client (string[] args)
         {
+            // init of variables
             string host = args[0];
             string fileToRequest = args[1];
-            string lineFromServer;
 			
+            // init of the TCP connection
             TcpClient clientSocket = new TcpClient();   // Socket is made for the client
             clientSocket.Connect(host, PORT);   // Client socket is connected to the host
             NetworkStream serverStream = clientSocket.GetStream(); // NetworkStream object is made from the connection
+
+            // file is requested from server
             LIB.writeTextTCP(serverStream, fileToRequest);  // Message requesting file is sent to the host
-
-            //lineFromServer = LIB.readTextTCP(serverStream); // Message is read from the connection
-
             _fileSize = LIB.getFileSizeTCP(serverStream);
 
             if (_fileSize > 0) // The first thing the server is to send is the filesize
@@ -70,24 +70,15 @@ namespace tcp
             int bytesReceivingNow;
             byte[] buf = new byte[BUFSIZE];
 
-            // Denne skal skiftes hvis der kun læses en byte af gangen
-            //string fileRead = LIB.readTextTCP(io);
-
-            // Der skal læses 1000 bytes af gangen. Hvis vi bare brugte LIB.readTextTCP
             while (bytesReceived < _fileSize)
             {
                 bytesReceivingNow = io.Read(buf, 0, buf.Length);
                 fs.Write(buf, 0, bytesReceivingNow); // buf is the bytes being written, bytesReceivingNow is the
-                                                                // size of the bytes being  written
+                                                     // size of the bytes being written
 
                 bytesReceived += bytesReceivingNow;
             }
 
-
-            //byte[] data = new UTF8Encoding(true).GetBytes(fileRead);
-            //fs.Write(data, 0, data.Length);
-
-            // Skal nok benytte noget filestream io til at gemme filen. Tjek apollos :^)
             fs.Close();
 
         }
