@@ -44,6 +44,7 @@ namespace tcp
             if (_fileSize > 0) // The first thing the server is to send is the filesize
             {
                 receiveFile(fileToRequest,serverStream); // Mangler at blive implementeret
+                Console.WriteLine("File {0} received\nSize of file: {1}", fileToRequest, _fileSize);
             }
             else
             {
