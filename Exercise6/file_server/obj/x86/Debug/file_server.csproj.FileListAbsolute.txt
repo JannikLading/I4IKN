@@ -1,0 +1,24 @@
+/root/Desktop/Exercise_6_c#-20190228T134319Z-001 (2)/Exercise_6_c#/file_server/bin/Debug/file_server.exe
+/root/Desktop/Exercise_6_c#-20190228T134319Z-001 (2)/Exercise_6_c#/file_server/bin/Debug/file_server.pdb
+/root/Desktop/Exercise_6_c#-20190228T134319Z-001 (2)/Exercise_6_c#/file_server/bin/Debug/LIB.dll
+/root/Desktop/Exercise_6_c#-20190228T134319Z-001 (2)/Exercise_6_c#/file_server/bin/Debug/LIB.pdb
+/root/Desktop/Exercise_6_c#-20190228T134319Z-001 (2)/Exercise_6_c#/file_server/obj/x86/Debug/file_server.csprojResolveAssemblyReference.cache
+/root/Desktop/Exercise_6_c#-20190228T134319Z-001 (2)/Exercise_6_c#/file_server/obj/x86/Debug/file_server.csproj.CoreCompileInputs.cache
+/root/Desktop/Exercise_6_c#-20190228T134319Z-001 (2)/Exercise_6_c#/file_server/obj/x86/Debug/file_server.exe
+/root/Desktop/Exercise_6_c#-20190228T134319Z-001 (2)/Exercise_6_c#/file_server/obj/x86/Debug/file_server.pdb
+/root/Desktop/Exercise_6/Exercise_6_c#/file_server/bin/Debug/file_server.exe
+/root/Desktop/Exercise_6/Exercise_6_c#/file_server/bin/Debug/file_server.pdb
+/root/Desktop/Exercise_6/Exercise_6_c#/file_server/bin/Debug/LIB.dll
+/root/Desktop/Exercise_6/Exercise_6_c#/file_server/bin/Debug/LIB.pdb
+/root/Desktop/Exercise_6/Exercise_6_c#/file_server/obj/x86/Debug/file_server.csprojResolveAssemblyReference.cache
+/root/Desktop/Exercise_6/Exercise_6_c#/file_server/obj/x86/Debug/file_server.csproj.CoreCompileInputs.cache
+/root/Desktop/Exercise_6/Exercise_6_c#/file_server/obj/x86/Debug/file_server.exe
+/root/Desktop/Exercise_6/Exercise_6_c#/file_server/obj/x86/Debug/file_server.pdb
+/root/Documents/IKN/I4IKN/file_server/bin/Debug/file_server.exe
+/root/Documents/IKN/I4IKN/file_server/bin/Debug/file_server.pdb
+/root/Documents/IKN/I4IKN/file_server/bin/Debug/LIB.dll
+/root/Documents/IKN/I4IKN/file_server/bin/Debug/LIB.pdb
+/root/Documents/IKN/I4IKN/file_server/obj/x86/Debug/file_server.csprojResolveAssemblyReference.cache
+/root/Documents/IKN/I4IKN/file_server/obj/x86/Debug/file_server.csproj.CoreCompileInputs.cache
+/root/Documents/IKN/I4IKN/file_server/obj/x86/Debug/file_server.exe
+/root/Documents/IKN/I4IKN/file_server/obj/x86/Debug/file_server.pdb

@@ -1,0 +1,5 @@
+/root/Projects/exercise7/exercise7/bin/Debug/exercise7.exe
+/root/Projects/exercise7/exercise7/bin/Debug/exercise7.pdb
+/root/Projects/exercise7/exercise7/obj/x86/Debug/client_TCP.csproj.CoreCompileInputs.cache
+/root/Projects/exercise7/exercise7/obj/x86/Debug/exercise7.exe
+/root/Projects/exercise7/exercise7/obj/x86/Debug/exercise7.pdb
