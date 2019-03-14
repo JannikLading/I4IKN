@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{74B158F5-42EC-46A9-9AC7-E205635B23E9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LIB/lib.cs">
+    <Files>
+      <File FileName="file_server/file_server.cs" Line="57" Column="34" />
+      <File FileName="LIB/lib.cs" Line="111" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.file__server PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
