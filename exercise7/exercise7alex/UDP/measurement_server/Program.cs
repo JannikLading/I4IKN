@@ -39,9 +39,7 @@ namespace UDP
 					Console.WriteLine($" Message to send: {buffer}");
 					Socket s = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
 
-					IPAddress clientIp = IPAddress.Parse("10.0.0.2");
-
-					IPEndPoint ep = new IPEndPoint(clientIp, port);
+                    IPEndPoint ep = new IPEndPoint(groupEP.Address, port);
 
 					byte[] buf = Encoding.ASCII.GetBytes($"{buffer}");
 
@@ -60,10 +58,8 @@ namespace UDP
 
 					// socket to send to
 					Socket s = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
-
-					IPAddress clientIp = IPAddress.Parse("10.0.0.2");
-
-					IPEndPoint ep = new IPEndPoint(clientIp, port);
+                    
+					IPEndPoint ep = new IPEndPoint(groupEP.Address, port);
 
 					// from string to bytes
 					byte[] buf = Encoding.ASCII.GetBytes($"{buffer}");
