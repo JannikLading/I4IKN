@@ -1,0 +1,5 @@
+/root/Projects/UDP/get_measurement/obj/x86/Debug/get_measurement.csproj.CoreCompileInputs.cache
+/root/Projects/UDP/get_measurement/bin/Debug/get_measurement.exe
+/root/Projects/UDP/get_measurement/bin/Debug/get_measurement.pdb
+/root/Projects/UDP/get_measurement/obj/x86/Debug/get_measurement.exe
+/root/Projects/UDP/get_measurement/obj/x86/Debug/get_measurement.pdb

@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{578D37E4-36C3-4EE5-AB19-80C8A9B4FF0D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="get_measurement/Program.cs">
+    <Files>
+      <File FileName="measurement_server/Program.cs" Line="64" Column="6" />
+      <File FileName="get_measurement/Program.cs" Line="44" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.measurement__server PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

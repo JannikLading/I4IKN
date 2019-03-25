@@ -1,0 +1,6 @@
+/root/Projects/UDP/measurement_server/obj/x86/Debug/measurement_server.csprojResolveAssemblyReference.cache
+/root/Projects/UDP/measurement_server/obj/x86/Debug/measurement_server.csproj.CoreCompileInputs.cache
+/root/Projects/UDP/measurement_server/bin/Debug/measurement_server.exe
+/root/Projects/UDP/measurement_server/bin/Debug/measurement_server.pdb
+/root/Projects/UDP/measurement_server/obj/x86/Debug/measurement_server.exe
+/root/Projects/UDP/measurement_server/obj/x86/Debug/measurement_server.pdb
