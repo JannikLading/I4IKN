@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{421BDA4C-999D-4B14-B645-E15BA7136554}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Link/Link.cs">
+    <Files>
+      <File FileName="Link/Link.cs" Line="96" Column="16" />
+      <File FileName="file_server/file_server.cs" Line="73" Column="3" />
+      <File FileName="Transport/Transport.cs" Line="130" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.file__server PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
