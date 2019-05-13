@@ -83,7 +83,7 @@ namespace Application
 		{
 			//new file_server();
 
-			var linker = new Link(20, "File_server");
+           
 		}
 	}
 }

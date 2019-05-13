@@ -7,6 +7,7 @@
 /root/Documents/IKN/I4IKN/Exercise_11_csharp(2)/file_client/bin/Debug/LIB.dll.mdb
 /root/Documents/IKN/I4IKN/Exercise_11_csharp(2)/file_client/bin/Debug/Transport.pdb
 /root/Documents/IKN/I4IKN/Exercise_11_csharp(2)/file_client/bin/Debug/Link.pdb
+/root/Documents/IKN/I4IKN/Exercise_11_csharp(2)/file_client/obj/x86/Debug/file_client.csprojResolveAssemblyReference.cache
 /root/Documents/IKN/I4IKN/Exercise_11_csharp(2)/file_client/obj/x86/Debug/file_client.csproj.CoreCompileInputs.cache
 /root/Documents/IKN/I4IKN/Exercise_11_csharp(2)/file_client/obj/x86/Debug/file_client.exe
 /root/Documents/IKN/I4IKN/Exercise_11_csharp(2)/file_client/obj/x86/Debug/file_client.pdb

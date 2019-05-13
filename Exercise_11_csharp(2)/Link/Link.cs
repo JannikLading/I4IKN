@@ -30,6 +30,7 @@ namespace Linklaget
 		public Link (int BUFSIZE, string APP)
 		{
 			// Create a new SerialPort object with default settings.
+            
 			#if DEBUG
 				if(APP.Equals("FILE_SERVER"))
 				{
@@ -42,6 +43,9 @@ namespace Linklaget
 			#else
 				serialPort = new SerialPort("/dev/ttyS1",115200,Parity.None,8,StopBits.One);
 			#endif
+
+            
+			serialPort = new SerialPort("/dev/ttyS1", 115200, Parity.None, 8, StopBits.One);
 			if(!serialPort.IsOpen)
 				serialPort.Open();
 
@@ -74,7 +78,7 @@ namespace Linklaget
 				{
 					case (byte)'A':
 						buffer[j++] = (byte)'B';
-                        buffer[j++] = (byte)'c';
+                        buffer[j++] = (byte)'C';
 						break;
 
 					case (byte)'B':

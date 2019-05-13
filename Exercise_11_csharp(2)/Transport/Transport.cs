@@ -114,7 +114,22 @@ namespace Transportlaget
 		/// </param>
 		public void send(byte[] buf, int size)
 		{
-			// TO DO Your own code
+			var buff = new byte[(size + 4)];
+			bool receivedACK = false;
+
+			Array.Copy(buf, 0, buff, 4, size);
+            
+			buff[(int)TransCHKSUM.SEQNO] = (byte)seqNo++; //skal old_seqno tælles op?
+			buff[(int)TransCHKSUM.TYPE] = (byte)0; 
+
+			checksum.calcChecksum(ref buff, buff.Length);
+
+			while(!receivedACK)
+			{
+				link.send(buff, buff.Length);
+				receivedACK = receiveAck();
+			}
+                    
 		}
 
 		/// <summary>
@@ -127,7 +142,10 @@ namespace Transportlaget
 		{
 			// TO DO Your own code
 
-			return 1;
+			link.receive(ref buf);
+			sendAck(checksum.checkChecksum(buf, buf.Length));
+            
+			return buf.Length;
 		}
 	}
 }
